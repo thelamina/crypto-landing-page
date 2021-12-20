@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { motion, AnimatePresence, useAnimation } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
 
@@ -16,6 +16,7 @@ export const Footer = () => {
 		<div>
 			<motion.nav
 				ref={ref}
+				whileInView='visible'
 				animate={controls}
 				initial='hidden'
 				variants={{
@@ -46,6 +47,7 @@ export const Footer = () => {
 							<div className='block'>
 								<motion.div
 									ref={ref}
+									whileInView='visible'
 									animate={controls}
 									initial='hidden'
 									variants={{
@@ -97,6 +99,7 @@ export const Footer = () => {
 								<div className='ml-3 relative'>
 									<motion.div
 										ref={ref}
+										whileInView='visible'
 										animate={controls}
 										initial='hidden'
 										variants={{

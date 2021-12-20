@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { motion, AnimatePresence, useAnimation } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
 import Profile from '../../assets/manpp.jpg';
@@ -18,6 +18,7 @@ export const Testimonials = () => {
 		<div className=' bg-white relative overflow-hidden bg-gradient-radial from-gray-900 via-gray-900 to-black py-16 '>
 			<motion.div
 				ref={ref}
+				whileInView='visible'
 				animate={controls}
 				initial='hidden'
 				variants={{
@@ -51,6 +52,7 @@ export const Testimonials = () => {
 						</h4>
 						<motion.p
 							ref={ref}
+							whileInView='visible'
 							animate={controls}
 							initial='hidden'
 							variants={{
@@ -115,6 +117,7 @@ export const Testimonials = () => {
 						</div>
 						<motion.div
 							ref={ref}
+							whileInView='visible'
 							animate={controls}
 							initial='hidden'
 							variants={{
@@ -144,6 +147,7 @@ export const Testimonials = () => {
 						</motion.div>
 						<motion.div
 							ref={ref}
+							whileInView='visible'
 							animate={controls}
 							initial='hidden'
 							variants={{

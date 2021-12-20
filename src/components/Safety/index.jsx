@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { motion, AnimatePresence, useAnimation } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import ManImage from '../../assets/man.jpg';
 import { ReactComponent as RocketIcon } from '../../assets/rocket.svg';

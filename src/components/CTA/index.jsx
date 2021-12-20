@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { motion, AnimatePresence, useAnimation } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
 
@@ -22,6 +22,7 @@ export const CTA = () => {
 					/>
 					<motion.h2
 						ref={ref}
+						whileInView='visible'
 						animate={controls}
 						initial='hidden'
 						variants={{
@@ -46,6 +47,7 @@ export const CTA = () => {
 					<div className='lg:mt-0 lg:flex-shrink-0'>
 						<motion.div
 							ref={ref}
+							whileInView='visible'
 							animate={controls}
 							initial='hidden'
 							variants={{

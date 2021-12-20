@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { motion, AnimatePresence, useAnimation } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 import { Link } from 'react-router-dom';
@@ -17,6 +17,7 @@ export const EarningSteps = () => {
 		<div className='container mx-auto my-8'>
 			<motion.div
 				ref={ref}
+				whileInView='visible'
 				animate={controls}
 				initial='hidden'
 				variants={{
@@ -36,6 +37,7 @@ export const EarningSteps = () => {
 			>
 				<motion.div
 					ref={ref}
+					whileInView='visible'
 					animate={controls}
 					initial='hidden'
 					variants={{
@@ -70,6 +72,7 @@ export const EarningSteps = () => {
 					<div className=' w-full grid grid-rows-3 gap-8 '>
 						<motion.div
 							ref={ref}
+							whileInView='visible'
 							animate={controls}
 							initial='hidden'
 							variants={{
@@ -105,6 +108,7 @@ export const EarningSteps = () => {
 						</motion.div>
 						<motion.div
 							ref={ref}
+							whileInView='visible'
 							animate={controls}
 							initial='hidden'
 							variants={{
@@ -140,6 +144,7 @@ export const EarningSteps = () => {
 						</motion.div>
 						<motion.div
 							ref={ref}
+							whileInView='visible'
 							animate={controls}
 							initial='hidden'
 							variants={{
@@ -177,6 +182,7 @@ export const EarningSteps = () => {
 					<div className='w-full grid grid-rows-2 grid-cols-1 items-center gap-6 '>
 						<motion.div
 							ref={ref}
+							whileInView='visible'
 							animate={controls}
 							initial='hidden'
 							variants={{
@@ -212,6 +218,7 @@ export const EarningSteps = () => {
 						</motion.div>
 						<motion.div
 							ref={ref}
+							whileInView='visible'
 							animate={controls}
 							initial='hidden'
 							variants={{

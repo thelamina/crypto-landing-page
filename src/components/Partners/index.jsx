@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Company from '../../assets/company.svg';
-import { motion, AnimatePresence, useAnimation } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
 
@@ -17,6 +17,7 @@ export const Partners = () => {
 		<div>
 			<motion.div
 				ref={ref}
+				whileInView='visible'
 				animate={controls}
 				initial='hidden'
 				variants={{
@@ -50,6 +51,7 @@ export const Partners = () => {
 						{/* <div className='block'> */}
 						<motion.div
 							ref={ref}
+							whileInView='visible'
 							animate={controls}
 							initial='hidden'
 							variants={{

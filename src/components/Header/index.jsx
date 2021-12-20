@@ -75,30 +75,6 @@ const authVariant = {
 		},
 	},
 };
-const logoVariant = {
-	hidden: {
-		scale: 1,
-		opacity: 0,
-		visibility: 'hidden',
-	},
-	visible: {
-		opacity: 1,
-		scale: 1,
-		visibility: 'visible',
-		transition: {
-			delay: 0.2,
-			type: 'tween',
-			duration: 0.5,
-		},
-	},
-	exit: {
-		opacity: 0,
-		transition: {
-			ease: 'easeInOut',
-			type: 'tween',
-		},
-	},
-};
 
 export const Header = () => {
 	return (
