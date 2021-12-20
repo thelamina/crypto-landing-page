@@ -8,6 +8,7 @@ import {
 	Footer,
 	Testimonials,
 	CTA,
+	Partners,
 } from './components';
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
 				<EarningSteps />
 				<Safety />
 				<Testimonials />
+				<Partners />
 				<CTA />
 				<Footer />
 			</div>

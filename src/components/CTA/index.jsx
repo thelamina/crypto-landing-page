@@ -13,8 +13,8 @@ export const CTA = () => {
 		}
 	}, [controls, inView]);
 	return (
-		<div className='container mx-auto py-16'>
-			<div className='bg-white rounded-lg bg-gradient-radial from-gray-900 via-gray-900 to-black py-16'>
+		<div className='container mx-auto pb-16'>
+			<div className='bg-white my-12 rounded-lg bg-gradient-radial from-gray-900 via-gray-900 to-black py-16'>
 				<div className='text-center w-full mx-auto py-6 px-4 sm:px-6 lg:py-6 lg:px-8 z-20'>
 					<div
 						className='bg-red-800 w-12 mx-auto mb-6'
