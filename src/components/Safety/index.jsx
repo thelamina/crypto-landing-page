@@ -27,7 +27,7 @@ export const Safety = () => {
 								opacity: 1,
 								x: '0px',
 								transition: {
-									duration: 0.4,
+									duration: 0.2,
 									delay: 0,
 									type: 'tween',
 								},
@@ -42,7 +42,7 @@ export const Safety = () => {
 						<motion.img
 							whileHover={{
 								scale: 1.1,
-								transition: { duration: 0.5, type: 'tween' },
+								transition: { duration: 0.3, type: 'tween' },
 							}}
 							className='w-80 h-full object-cover'
 							alt='eggs'
@@ -60,7 +60,7 @@ export const Safety = () => {
 									y: '0px',
 									transition: {
 										duration: 0.4,
-										delay: 1.0,
+										delay: 0.4,
 										type: 'tween',
 									},
 								},
@@ -103,7 +103,7 @@ export const Safety = () => {
 
 									transition: {
 										duration: 0.4,
-										delay: 0.2,
+										delay: 0.1,
 										type: 'tween',
 									},
 								},
@@ -204,9 +204,9 @@ export const Safety = () => {
 								opacity: 1,
 								y: '0px',
 								transition: {
-									// duration: 0.4,
+									duration: 0.4,
 									// delay: 0.1,
-									// type: 'tween',
+									type: 'tween',
 								},
 							},
 							hidden: {
