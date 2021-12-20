@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaEthereum } from 'react-icons/fa';
+import chart from '../../assets/chart.png';
 import { BsCurrencyBitcoin } from 'react-icons/bs';
 
 export const PriceChart = () => {
@@ -19,7 +20,7 @@ export const PriceChart = () => {
 				delay: 2.5,
 				duration: 0.5,
 			}}
-			className='flex flex-wrap mt-12 text-white rounded-md border border-gray-700 bg-gray-700 bg-opacity-30 shadow-lg'
+			className='flex flex-wrap mt-16 text-white rounded-md border border-gray-700 bg-gray-700 bg-opacity-30 shadow-lg'
 		>
 			<div className='w-full lg:border-b-0 border-b md:w-1/2  transition md:border-r border-gray-700 lg:w-1/4 px-6 py-8'>
 				<motion.div
@@ -47,17 +48,12 @@ export const PriceChart = () => {
 								- 4.90%
 							</p>
 						</div>
-						<span className='bg-gray-700 p-2 border-gray-200 rounded-full'>
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								width={16}
-								height={16}
-								className='w-4 h-4 text-yellow-500'
-								fill='currentColor'
-								viewBox='0 0 1792 1792'
-							>
-								<path d='M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z' />
-							</svg>
+						<span className=''>
+							<img
+								src={chart}
+								alt='chart'
+								className='w-12 h-12 object-cover'
+							/>
 						</span>
 					</div>
 				</motion.div>
@@ -88,17 +84,12 @@ export const PriceChart = () => {
 								+ 1.89%
 							</p>
 						</div>
-						<span className='bg-gray-700 p-2 border-gray-200 rounded-full'>
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								width={16}
-								height={16}
-								className='w-4 h-4 text-yellow-500'
-								fill='currentColor'
-								viewBox='0 0 1792 1792'
-							>
-								<path d='M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z' />
-							</svg>
+						<span className=''>
+							<img
+								src={chart}
+								alt='chart'
+								className='w-12 h-12 object-cover'
+							/>
 						</span>
 					</div>
 				</motion.div>
@@ -154,17 +145,12 @@ export const PriceChart = () => {
 								- 20.2%
 							</p>
 						</div>
-						<span className='bg-gray-700 p-2 border-gray-200 rounded-full'>
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								width={16}
-								height={16}
-								className='w-4 h-4 text-yellow-500'
-								fill='currentColor'
-								viewBox='0 0 1792 1792'
-							>
-								<path d='M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z' />
-							</svg>
+						<span className=''>
+							<img
+								src={chart}
+								alt='chart'
+								className='w-12 h-12 object-cover'
+							/>
 						</span>
 					</div>
 				</motion.div>
@@ -195,17 +181,12 @@ export const PriceChart = () => {
 								+ 105%
 							</p>
 						</div>
-						<span className='bg-gray-700 p-2 border-gray-200 rounded-full'>
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								width={16}
-								height={16}
-								className='w-4 h-4 text-yellow-500'
-								fill='currentColor'
-								viewBox='0 0 1792 1792'
-							>
-								<path d='M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z' />
-							</svg>
+						<span className=''>
+							<img
+								src={chart}
+								alt='chart'
+								className='w-12 h-12 object-cover'
+							/>
 						</span>
 					</div>
 				</motion.div>
